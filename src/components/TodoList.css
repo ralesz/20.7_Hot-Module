@@ -1,0 +1,15 @@
+.TodoList {
+  font-size: 20px;
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  min-width: 200px;
+  text-align: center;
+  background-color: #f7de01;
+  color: blue;
+  box-shadow: 5px 10px #888888;
+}
+.TodoList > li:hover {
+  color: red;
+  cursor: pointer; 
+}
